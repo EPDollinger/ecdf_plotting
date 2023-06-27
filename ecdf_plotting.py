@@ -27,6 +27,7 @@ def plot_ecdf(
     height - float, height of plot. Defaults to 5.0.
     plot_on_x - bool, whether to plot expression on x axis. Defaults to False (plot expression on y axis).
     return_df - bool, whether to return melted dataframe for further plotting. Defaults to False.
+    kwargs - any kwargs passed to sns.displot
     '''
     if isinstance(genes, str):
         genes = [genes]
